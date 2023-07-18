@@ -1,4 +1,67 @@
 /* Work Sans from google fonts */
-body{
-    font-family: 'Work Sans', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
 }
+/* common style */
+body{
+font-family: 'Work Sans', sans-serif;
+}
+.item{
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.text-title{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.fa-brands{
+    font-size: 30px;
+}
+/*nav style*/
+.nav-container{
+    width: 1900px;
+    min-height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    gap: 20px;
+   
+}
+.menu-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu-container a{
+    text-decoration: none;
+}
+.menu-social-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 200px;
+    height: 55px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10) ;
+    padding: 0 24px;
+    font-size: 18px;
+    
+}
+.text-title-special-color{
+    font-size: 45px;
+   font-weight: 700;
+   color: deeppink;
+   
+   
+       
+}
+
