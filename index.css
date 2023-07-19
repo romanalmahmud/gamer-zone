@@ -270,6 +270,7 @@ line-height: 30px;
     gap: 20px;
 }
 /* Online game section end */
+
 /* PLAY GAMES */
 .play-games-instantly {
     margin-bottom: 100px;
@@ -305,15 +306,14 @@ margin-top: 20px;
     font-weight: 700;
 }
 #text-color{
-    background: rgb(135, 88, 241);
-    background: linear-gradient(0deg, rgba(135, 88, 241, 1) 0%, rgba(249, 72, 160, 1) 100%);
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: right;
-    font-size: 3rem;
-    font-style: normal;
     font-weight: 700;
     line-height: 60px;
+    font-size: 3rem;
+    font-style: normal;
 
 }
 
