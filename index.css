@@ -55,7 +55,7 @@
     padding: 0 24px;
     width: 200px;
     height: 55px;
-    border-radius: 8px;
+    border-radius: .5rem;
     align-items: center;
     background: rgba(11, 2, 35, 0.10) ;
     font-size: 1.125rem;
@@ -436,7 +436,7 @@
     border: 1px solid #FFF;
 }
 
-.game-category-name {
+.category-name {
     font-size: 1.125rem;
     font-weight: 600;
 }
@@ -509,3 +509,76 @@
 
 
 
+/* responsive section */
+
+/* Mobile devices */
+@media screen and (max-width: 592px) {
+    .logo-container {
+        margin-bottom: 20px;
+    }
+    .nav-container,
+    .menu-container,
+    .we-are-gamer-container,
+    .online-game-container,
+    .play-games-instantly{
+        flex-direction: column;
+    }
+
+    .section-one-main-container {
+        flex-direction: column-reverse;
+        margin: 0 30px;
+        background-position: bottom left;
+    }
+
+    .div-banner {
+        margin: 45px 0;
+    }
+
+    .we-are-gamer-container {
+        margin-bottom: 100px;
+        background-color: transparent;
+    }
+
+    .div-gamer-image,
+    .div-game-content,
+    .div-play-games-img
+    {
+        width: 100%;
+    }
+
+    .gamer-text-container,
+    .div-game-content {
+        text-align: center;
+    }
+
+    .play-games-instantly {
+        gap: 20px;
+    }
+
+    .div-play-games-img {
+        width: 100%;
+    }
+
+    .div-play-games-img img {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .play-games-instantly .below-photo {
+        height: 150px;
+        width: 150px;
+        left: -50px;
+    }
+
+    .game-category {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 50px 20px;
+        place-items: center;
+    }
+
+
+    .footer-container {
+        padding: 100px 20px;
+    }
+}
