@@ -1,15 +1,15 @@
 /* Work Sans from google fonts */
-*{
+* {
     margin: 0;
     padding: 0;
-}
-/* common style */
-body{
-font-family: 'Work Sans', sans-serif;
-}
+    outline: 0;
+    font-family: "Work Sans", sans-serif;
+  }
+  /*navigation style*/
+  
 .item{
     color: #3C354F;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
 
 }
@@ -18,71 +18,71 @@ font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     
 }
-.fa-brands{
-    font-size: 30px;
-}
-/*nav style*/
+
 .nav-container{
-    width: 1900px;
     min-height: 130px;
+    max-width: 1240px;
     display: flex;
     justify-content: space-around;
-    margin-left: auto;
     align-items: center;
+    text-align: center;
+    position: relative;
+    padding:0 50px;
+    margin-bottom: 20px;
 }
 .logo-container{
     display: flex;
     gap: 20px;
    
 }
+
 .menu-container{
     display: flex;
-    gap: 30px;
-    justify-content: center;
+    gap: 40px;
+    min-height: 3.125rem;
     align-items: center;
-    margin-right: 400px;
+    justify-content: center;
+
     
 }
-.menu-container a{
+.menu-container a {
     text-decoration: none;
+
 }
 .menu-social-container{
     display: flex;
     gap: 20px;
-    align-items: center;
+    padding: 0 24px;
     width: 200px;
     height: 55px;
     border-radius: 8px;
+    align-items: center;
     background: rgba(11, 2, 35, 0.10) ;
-    padding: 0 24px;
-    font-size: 18px;
+    font-size: 1.125rem;
     
 }
 .text-title-special-color{
     font-size: 45px;
    font-weight: 700;
    color: deeppink;
-   
-   
-       
 }
 
-/* Goat section starts  */
+/* Goat section start  */
 .section-one-main-container {
-    width: 100%;
-    min-height: 700px;
     background-image: url('/images/Group\ 14.png');
     background-repeat: no-repeat;
     background-position: bottom left;
+    min-height: 700px;
+    width: 100%;
 
 }
 
 .div-banner {
     width: 80%;
     display: flex;
+    margin: auto;
     align-items: center;
     justify-content: space-around;
-    margin: auto;
 }
 
 .div-goat {
@@ -92,11 +92,11 @@ font-family: 'Work Sans', sans-serif;
 }
 
 .play-like-info {
-    color: #0B0223;
     font-size: 3rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    color: #0B0223;
 }
 
 .goat-info {
@@ -125,63 +125,60 @@ font-family: 'Work Sans', sans-serif;
 
 .button-group {
     display: flex;
-    gap: 20px;
     margin-top: 30px;
+    gap: 20px;
 }
 .icon-text {
     color: #534C64;
 }
 
 .button-first {
+    background: #FF42A5;
     padding: 1.31rem 2.5rem;
     border-radius: 3rem;
-    background: #FF42A5;
     text-transform: uppercase;
     color: #FFF;
 }
 
 .button-second {
-    padding: 1.31rem 2.5rem;
-    border-radius: 3rem;
     background: #4EC5F7;
+    padding: 1.35rem 2.5rem;
+    border-radius: 3rem;
     text-transform: uppercase;
     color: #FFF;
+}
+.image {
+    width: 100%;
+    height: 100%;
 }
 
 .div-images {
     width: 50%;
 }
 
-.image {
-    width: 100%;
-    height: 100%;
-}
-
-/* Goat section end  */
-
 
 /* We are Gamers section */
 .div-gamer-image{
     width: 100%;
-    height: 70vh;
+    height: 61vh;
     background-color: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin-top: 30px;
     margin-left: 30px;
 }
 
 .button-third {
     display: inline-flex;
-    padding: 21px 40px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     border: none;
     color: #FFF;
+    padding: 21px 40px;
     font-family: Work Sans;
     font-size: 1.25rem;
     font-weight: 600;
@@ -189,30 +186,31 @@ font-family: 'Work Sans', sans-serif;
     margin-right: 30px;
 }
 .div-gamer{
-    width: 90%;
     margin: 0 auto;
+    width: 90%;
     height: 500px;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-evenly;
 }
 .gamer-text-container{
     width: 100%;
+    margin-right: 30px;    
     text-align: right;
     display: block;
-    margin-right: 30px;
 }
+
 .gamer-text-container h1{
     padding: 30px;
-    font-size:3rem;
     font-weight: 700;
+    font-size:3rem;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     }
 .gamer-text-container p{
-    padding: 30px;
+    padding: 0 30px;
     color: #534C64;
     text-align: right;
     font-size: 1.12rem;
@@ -227,79 +225,146 @@ font-family: 'Work Sans', sans-serif;
 }
 
 /* Online game section start */
-.online-game{
-text-align: center;
-margin-top: 70px;
-}
-.online-game h1{
-    color: #0B0223;
-font-family: Work Sans;
-font-size: 3rem;
-font-weight: 700;
-}
-.title-special-color-two{
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-family: Work Sans;
-font-size: 3rem;
-font-weight: 700;
-}
-.title-special-color-two p{
-    color: #534C64;
-font-family: Work Sans;
-font-size: 18px;;
-font-weight: 400;
-line-height: 30px;
-}
-.game{
-    width: 342px;
-    height: 400px;
-}
-.game img{
-    width: 280px;
-    height: 300px;
-}
-.game:hover{
-    cursor: pointer;
-}
-.games{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 48px 180px 48px 180px;
-    gap: 20px;
-}
-/* Online game section end */
+  .online-container {
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 50px;
+  }
+  .online-content {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .online-content p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: #534c64;
+    left: 10px;
+  }
+  
+  .online-text {
+    font-size: 48px;
+  }
+  .online-text span {
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
-/* PLAY GAMES */
+  .group-img {
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .card {
+    position: relative;
+    flex-basis: calc(25%) -1rem;
+  }
+  .card img {
+    height: auto;
+    max-width: 100%;
+
+  }
+  
+  .hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  .hover img {
+    display: block;
+    margin: 0.9 rem auto;
+  }
+  .card:hover .card-img {
+    -webkit-filter: brightness(30%);
+    transition: 0.5s ease-in-out;
+
+  }
+  .card:hover .hover {
+    display: block;
+    color: #f948b2;
+    font-weight: 500;
+    transition: 0.4s ease-in-out;
+  }
+  .card-info {
+    color: #534c64;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  /* Play Instantly section */
+  .instantly {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .instantly-container {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    justify-content: space-around;
+  }
+  .instantly-content {
+    text-align: right;
+  }
+  .instantly-header {
+    text-align: right;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .color-head {
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .instantly-des {
+    color: #534c64;
+    text-align: right;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 400;
+  }
+  .instantly-img img {
+    width: 100%;
+    height: auto;
+  }
+  .overlay-img img {
+    width: 50%;
+    height: auto;
+    position: relative;
+    right: 150px;
+    top: -120px;
+  }
+
+
+/* Play game instantly section start*/
 .play-games-instantly {
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     padding: 0 50px;
     display: flex;
+    width: 70vw;
     justify-content: right;
     align-items: center;
     height: 100vh;
-    width: 70vw;
-    margin-left: 30vh;
+    margin-left: 32vh;
 }
 
 .div-game-content {
     width: 50%;
     max-width: 400px;
-    margin: 0 auto;
+    margin: 10px;
 
 }
-.text-size{
-color: #534C64;
-text-align: left;
-font-size: 1.1rem;
-font-style: normal;
-font-weight: 400;
-margin-top: 20px;
 
-}
 .div-play-games-img {
     width: 50%;
 }
@@ -307,6 +372,7 @@ margin-top: 20px;
     font-size: 3rem;
     font-weight: 700;
 }
+
 #text-color{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -324,69 +390,78 @@ margin-top: 20px;
     margin-left: 100px;
 }
 
-.div-play-games-img .badge {
+.div-play-games-img .below-photo {
     position: relative;
     width: 300px;
     bottom: 100px;
     left: -100px;
 }
 
-.badge img {
-    width: 100%;
-    height: 350px;
+.below-photo img {
+    height: 300px;
+    width:90%;
 }
+.text-size{
+    color: #534C64;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    
+    }
 
-/* GAME CATEGORIES */
+
+/*  Category of Game section start*/
 .game-category {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 100px 50px;cursor: pointer;
+    margin-top: 0;
     gap: 20px;
     background-color: #fff9fc;
-    padding: 100px 50px;cursor: pointer;
+
 
 }
 
 .category-item {
     display: flex;
     align-items: center;
+    border-radius: 50px;
     gap: 10px;
     padding: 5px 10px;
     background-color: #FFF;
-    border-radius: 50px;
     border: 1px solid #FFF;
 }
-
-.hover-active {
-    border: 1px solid #FF42A5;
-    color: #FF42A5;
-}
-
-.category-item:hover .category-name {
-    color: #FF42A5;
-}
-
-/* .game-category:hover {
-    border: 1px solid #FF42A5;
-} */
 
 .game-category-name {
     font-size: 1.125rem;
     font-weight: 600;
 }
 
-/* =================== FOOTER STYLES =================== */
+.hover-active {
+    border: 1px solid #ff4aa8;
+    color:#ff4aa8;
+}
+
+.category-item:hover .category-name {
+    color:#ff4aa8;
+}
+
+
+/* Footer section start */
 
 
 .footer-container {
-    background-color: #0B0223;
-    padding: 100px 0px;
-    text-align: center;
     display: flex;
     flex-direction: column;
+    background-color: #0B0223;
+    padding: 100px 0px;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .footer-links,
@@ -394,9 +469,9 @@ margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
     margin: 40px 0;
-    flex-wrap: wrap;
     color: #fff;
 }
 
@@ -426,8 +501,11 @@ margin-top: 20px;
 
 .footer-links li:hover a,
 .social-media-links i:hover {
-    color: #d441b9;
+    color: #d640ba;
 }
 .footer-container small{
     color: #fff;
 }
+
+
+
