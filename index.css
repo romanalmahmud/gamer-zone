@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    outline: 0;
     font-family: "Work Sans", sans-serif;
   }
   /*navigation style*/
@@ -510,6 +509,7 @@
 
 
 /* responsive section */
+/* mobile */
 
 @media screen and (max-width:576px) {
 
@@ -517,19 +517,19 @@
         box-sizing: border-box;
     }
     .nav-container{
-        margin-top: 170px;
         flex-direction: column;
         box-shadow: none;
+        margin-top: 170px;
     }
 
     .menu-container{
-        margin-top: 62px;
+        margin-top: 60px;
         flex-direction: column;
     }
 
     .menu-container .menu-social-container{
-        margin-top: 62px;
-        margin-bottom: 62px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
 
     .div-banner{
@@ -542,29 +542,28 @@
     }
 
     .div-goat{
-       width: 100%;
        height: auto;
+       width: 100%;
        margin-bottom: 20px;
     }
 
     .div-images{
-        /* margin-top: -40px; */
-        margin-bottom: 40px;
         width: 300px;
         height: 300px;
+        margin-bottom: 40px;
     }
 
     .div-gamer{
+        flex-direction: column;
+        background: none;
         margin: auto;
         margin-top: 222px;
         padding: 40px;
-        flex-direction: column;
-        background: none;
     }
 
     .div-gamer-image img{
+        height: 260px;
         width: 300px;
-        height: 270px;
         margin-bottom: 20px;
     }
 
@@ -574,7 +573,7 @@
     }
 
     .div-gamer p{
-        font-size: 12px;
+        font-size: 10px;
 
     }
 
@@ -593,25 +592,25 @@
 
 
     .online-text{
-        margin-top: 143px;
+        margin-top: 145px;
         font-size: 30px;
     }
 
-    .funny-games-items{
+    .group-img {
         flex-direction: column;
         gap: 50px;
     }
     
-    .play-container{
+    .div-game-content{
         flex-direction: column;
         height: auto;
         padding-bottom: 100px;
     }
 
     .online-content{
+        margin-bottom: 30px;
         width: 80%;
         text-align: center;
-        margin-bottom: 30px;
     }
     .group-img{
         display: flex;
@@ -620,23 +619,23 @@
 
 
     .div-play-games-img {
-        width: 100%;
         height: auto;
+        width: 100%;
         margin-left: 50px;
 
     }
 
     .below-photo{
-        width: 80%;
-        height: 50px;
         margin: 0 auto;
         top: 0;
         left: 0;
+        width: 80%;
+        height: 50px;
     }
     .div-game-content p{
+        padding-top: 12px;
         font-size: 16px;
         line-height: 24px;
-        padding-top: 12px;
     }
     .div-game-content h3{
         font-size: 25px;
@@ -667,28 +666,211 @@
         padding-bottom: 50px;
     }
 
- .logo-container{
+    .footer-container.logo-container{
         margin-top: 50px;
     }
 
-.footer-links{
+    .footer-container.footer-links{
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
         margin-top: 10px;
     }
 
- .social-media-links{
+    .footer-container.social-media-links{
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 10px;
         width: 60%;
     }
 
-.footer-security{
+    .footer-container.footer-security{
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 40px;
         gap: 30px;
     }
 }
+
+
+/* tablet */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    *{
+        box-sizing: border-box;
+    }
+    .nav-container{
+        flex-direction: column;
+        box-shadow: none;
+        margin-top: 160px;
+    }
+
+
+    .menu-container{
+        flex-direction: column;
+        margin-top: 62px;
+    }
+
+    .menu-container .menu-social-container{
+        margin-top: 62px;
+        margin-bottom: 62px;
+    }
+
+    .div-banner{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px;
+        margin-top: 300px;
+        width: 100%;
+        
+    }
+
+    .div-goat{
+       width: 100%;
+       height: auto;
+       margin-bottom: 20px;
+    }
+
+    .div-images{
+        width: 300px;
+        height: 300px;
+        margin-bottom: 40px;
+    }
+
+    .div-gamer{
+        margin: auto;
+        flex-direction: column;
+        background: none;
+        margin-top: 222px;
+        padding: 40px;
+    }
+
+    .div-gamer-image img{
+        width: 300px;
+        height: 270px;
+        margin-bottom: 20px;
+    }
+
+    .gamer-text-container{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .div-gamer p{
+        font-size: 12px;
+    }
+
+    .online-container{
+        height: auto;
+        padding: 35px;
+    }
+
+    .online-content{
+        margin-top: 35px;
+    }
+
+    .online-paragraph{
+        font-size: 12px;
+    }
+
+    .group-img{
+        flex-direction: column;
+        gap: 50px;  
+        width: 100%;
+        height: auto;
+        margin: 0;
+
+
+    }
+    
+    .online-text{
+        margin-top: 160px;
+        font-size: 35px;
+    }
+
+    
+    .div-game-content{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .online-content{
+        width: 80%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .below-photo {
+        height: auto;
+        margin: 0 auto;
+        width: 80%;
+        top: 0;
+        left: 0;
+    }
+
+    .div-game-content h{
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .div-game-content p{
+        padding-top: 12px;
+        font-size: 16px;
+        line-height: 24px;
+        
+    }
+
+    .category-name{
+        height: auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .game-category{
+        width: 100%;
+        height: 60px;
+    }
+    
+    .category-item img{
+        width: 90%;
+        height: 60px;
+        
+    }
+
+
+    .footer-container{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .footer-container  .logo-container{
+        margin-top: 50px;
+    }
+
+    .footer-container .footer-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 25px;
+    }
+
+    .footer-container .social-media-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 35px;
+        gap: 20px;
+    }
+
+    .footer-container .footer-security{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 40px;
+        gap: 20px;
+    }
+}
+
+
+
