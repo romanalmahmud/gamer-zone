@@ -511,74 +511,184 @@
 
 /* responsive section */
 
-/* Mobile devices */
-@media screen and (max-width: 592px) {
-    .logo-container {
-        margin-bottom: 20px;
+@media screen and (max-width:576px) {
+
+    *{
+        box-sizing: border-box;
     }
-    .nav-container,
-    .menu-container,
-    .we-are-gamer-container,
-    .online-game-container,
-    .play-games-instantly{
+    .nav-container{
+        margin-top: 170px;
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .menu-container{
+        margin-top: 62px;
         flex-direction: column;
     }
 
-    .section-one-main-container {
-        flex-direction: column-reverse;
-        margin: 0 30px;
-        background-position: bottom left;
+    .menu-container .menu-social-container{
+        margin-top: 62px;
+        margin-bottom: 62px;
     }
 
-    .div-banner {
-        margin: 45px 0;
-    }
-
-    .we-are-gamer-container {
-        margin-bottom: 100px;
-        background-color: transparent;
-    }
-
-    .div-gamer-image,
-    .div-game-content,
-    .div-play-games-img
-    {
+    .div-banner{
+        margin-top: 300px;
         width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px;
+        
     }
 
-    .gamer-text-container,
-    .div-game-content {
+    .div-goat{
+       width: 100%;
+       height: auto;
+       margin-bottom: 20px;
+    }
+
+    .div-images{
+        /* margin-top: -40px; */
+        margin-bottom: 40px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .div-gamer{
+        margin: auto;
+        margin-top: 222px;
+        padding: 40px;
+        flex-direction: column;
+        background: none;
+    }
+
+    .div-gamer-image img{
+        width: 300px;
+        height: 270px;
+        margin-bottom: 20px;
+    }
+
+    .gamer-text-container{
         text-align: center;
+        margin-top: 20px;
     }
 
-    .play-games-instantly {
-        gap: 20px;
+    .div-gamer p{
+        font-size: 12px;
+
     }
+
+    .online-container{
+        height: auto;
+        padding: 40px;
+    }
+
+    .online-content{
+        margin-top: 40px;
+    }
+    .online-paragraph{
+        font-size: 12px;
+    
+    }
+
+
+    .online-text{
+        margin-top: 143px;
+        font-size: 30px;
+    }
+
+    .funny-games-items{
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .play-container{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .online-content{
+        width: 80%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .group-img{
+        display: flex;
+        flex-direction: column;
+    }
+
 
     .div-play-games-img {
         width: 100%;
+        height: auto;
+        margin-left: 50px;
+
     }
 
-    .div-play-games-img img {
-        width: 100%;
-        margin-left: 0px;
+    .below-photo{
+        width: 80%;
+        height: 50px;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+    }
+    .div-game-content p{
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 12px;
+    }
+    .div-game-content h3{
+        font-size: 25px;
+        line-height: 48px;
     }
 
-    .play-games-instantly .below-photo {
-        height: 150px;
-        width: 150px;
-        left: -50px;
+   
+    .category-name{
+        font-size: 15px;
     }
 
-    .game-category {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        padding: 50px 20px;
-        place-items: center;
+    .game-category{
+        height: auto;
+        display: grid;
+        padding: 10px 80px;
+        grid-template-columns: repeat(3,1fr);
+    
     }
 
-
-    .footer-container {
-        padding: 100px 20px;
+    .category-item img{
+        width: 90%;
+        height: 60px;
+        
     }
-} 
+
+    .footer-container{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+ .logo-container{
+        margin-top: 50px;
+    }
+
+.footer-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+ .social-media-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+        width: 60%;
+    }
+
+.footer-security{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 40px;
+        gap: 30px;
+    }
+}
