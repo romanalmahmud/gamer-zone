@@ -27,6 +27,7 @@ font-family: 'Work Sans', sans-serif;
     min-height: 130px;
     display: flex;
     justify-content: space-around;
+    margin-left: auto;
     align-items: center;
 }
 .logo-container{
@@ -39,6 +40,7 @@ font-family: 'Work Sans', sans-serif;
     gap: 30px;
     justify-content: center;
     align-items: center;
+    margin-right: 400px;
     
 }
 .menu-container a{
