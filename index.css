@@ -499,6 +499,7 @@
     }
     .div-goat .goat-info {
         width: 100vw;
+        font-size: 80px ;
 
     }
     .button-group{
@@ -509,7 +510,7 @@
     .div-images{
         width: 300px;
         height: 300px;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
     }
 
     .div-gamer{
@@ -531,6 +532,7 @@
         margin-top: 20px;
     }
 
+
     .div-gamer p{
         font-size: 10px;
 
@@ -540,6 +542,7 @@
     .online-container{
         height: auto;
         padding: 40px;
+        margin-top: 70px;
     }
 
     .online-content{
@@ -600,7 +603,7 @@
 
         display: flex;
         flex-direction: column;
-        padding: 20px 0;
+        padding: 20px 80px 20px 0;
 
     }
     .div-game-content{
@@ -695,7 +698,7 @@
 
 /* tablet */
 
-@media screen and (min-width:576px) and (max-width:992px) {
+@media screen and (min-width:560px) and (max-width:992px) {
 
     *{
         box-sizing: border-box;
@@ -723,7 +726,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        padding: 80px;
         margin-top: 100px;
         width: 60vh;
         
@@ -831,7 +834,7 @@
         
     }
     .div-play-games-img{
-        width: 65vh;
+        width: 40vh;
         margin: 0;
         padding-top: 0;
     }
@@ -840,9 +843,9 @@
         position:relative;
         left: -180px;
         top: -140px;
-        height: 40vh;
+        height: 20vh;
         width: 70%;
-        margin: 0 auto;
+        margin: 0 50px;
     }
     
 
@@ -854,9 +857,10 @@
     .game-category{
         height: auto;
         display: grid;
-        padding: 20px 80px;
+        padding: 20px 20px;
         grid-template-columns: repeat(3,1fr);
-        width: 100vh;
+        width: 80vw;
+        margin: 10px 60px;
 
     
     }
