@@ -37,17 +37,25 @@
 
 .menu-container{
     display: flex;
-    gap: 40px;
+    gap: 50px;
     min-height: 3.125rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
+
 
     
 }
 .menu-container a {
     text-decoration: none;
+    justify-content: space-between;
+    text-align: center;
 
 }
+.menu-container i{
+    justify-content: space-between;
+    text-align: center;
+} 
 .menu-social-container{
     display: flex;
     gap: 20px;
@@ -282,7 +290,7 @@
   }
   .card:hover .card-img {
     -webkit-filter: brightness(30%);
-    transition: 0.5s ease-in-out;
+    transition: 1s ease-in-out;
 
   }
   .card:hover .hover {
@@ -621,7 +629,7 @@
         top: -40px;
         height: 20vh;
         width: 80%;
-        height: 50px;
+
 
     }
     /* category */
